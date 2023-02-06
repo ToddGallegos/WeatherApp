@@ -1,5 +1,4 @@
-
-console.log("test")
+const API_KEY= process.env.API_KEY
 const getFormData = async (event) => {
     event.preventDefault();
     const city = event.target.city.value;
